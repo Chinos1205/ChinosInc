@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('Qué yo vaya por un elote con Zoe???????? Obvio q sí, por cierto, SI ES PARA TI LA PREGUNTA ZOE FLORES PQ LUEGO DICES Q ES PARA OTRA ZOE')
+    alert('Yo sabía que te caía bn Sopi, a mi tmb <3')
 })
 
 const noBtn = document.querySelector('#noBtn');
