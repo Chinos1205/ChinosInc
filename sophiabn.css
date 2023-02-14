@@ -150,7 +150,7 @@ ol {
     margin-bottom: 30px;
     border: 1px solid #B575D1;
     padding: 30;
-    background: #2671e9;
+    background: #87aae2;
     text-align: justify;
 }
 
@@ -161,10 +161,18 @@ ol {
     padding: 10px;
 }
 
+.indice {
+    background: #3C2745;
+}
+
+.indice li a {
+    color:white;
+}
 
 .indice li a:hover {
-    background: #5d98f8;
+    background: #6b5874;
 }
+
 
 #yesBtn {
     transform: translate(-100%, 0);

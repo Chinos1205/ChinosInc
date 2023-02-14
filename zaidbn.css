@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Georgia;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: Georgia;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 20px;
+    font-family: arial;
+    padding: 30px;
+}
+
+body {
+    text-align: center;
+    background: #1C4541;
+}
+
+button {
+    all: unset;
+    background-color: #fd79a8;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+article {
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 4px solid #B575D1;
+    background: #54D1C7;
+}
+
+footer {
+    padding: 5px;
+    clear: both;
+    font: lighter 10px;
+    font-family: Verdana;
+    font-size: 10px;
+    text-align: left
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.titulo {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.agrup {
+    background: #835896;
+    width: 1000px;
+    margin: 15px auto;
+}
+
+.cabeza {
+    background: #9162a5;
+    border: 1px solid #B575D1;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabeza h1 {
+    text-align: left;
+}
+
+.info {
+    list-style: none;
+    background: #3C2745;
+    padding: 0px;
+    margin: auto;
+    font: bolder 15px Times New Roman;
+}
+
+.info li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.info li {
+    display: inline-block;
+    text-align: center;
+}
+
+.info li a:hover {
+    background: #6b5874;
+}
+
+.secc {
+    margin: 10px;
+    width: 650px;
+    float: left;
+}
+
+.p1 {
+    text-align: justify;
+}
+
+.p2 {
+    text-align: justify;
+}
+
+.imagen1 {
+    width: 500px;
+}
+
+.imagen2 {
+    width: 200px;
+}
+
+.imagen3 {
+    width: 300px;
+}
+
+.imagen4 {
+    width: 100px;
+}
+
+.imagen5 {
+    width: 300px;
+}
+
+.colum {
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+}
+
+.colum blockquote {
+    margin-bottom: 30px;
+    border: 1px solid #B575D1;
+    padding: 30;
+    background: #87aae2;
+    text-align: justify;
+}
+
+.colum blockquote a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.indice {
+    background: #3C2745;
+}
+
+.indice li a {
+    color:white;
+}
+
+.indice li a:hover {
+    background: #6b5874;
+}
+
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+}
+
