@@ -32,15 +32,6 @@ body {
     background: #1C4541;
 }
 
-button {
-    all: unset;
-    background-color: #fd79a8;
-    padding: 10px 15px;
-    border-radius: 4px;
-    font-size: xx-large;
-    font-style: oblique;
-}
-
 article {
     padding: 30px;
     margin-bottom: 30px;
@@ -63,7 +54,7 @@ ol {
 }
 
 .titulo {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .agrup {
@@ -126,19 +117,7 @@ ol {
 }
 
 .imagen2 {
-    width: 300px;
-}
-
-.imagen3 {
-    width: 300px;
-}
-
-.imagen4 {
     width: 200px;
-}
-
-.imagen5 {
-    width: 250px;
 }
 
 .colum {
@@ -162,23 +141,37 @@ ol {
     padding: 10px;
 }
 
+.amigos {
+    background: #3C2745;
+}
+
+.amigos li a {
+    color: white;
+}
+
+.amigos li a:hover {
+    background: #6b5874;
+}
+
+.amigos li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background: #7591be;
+}
 
 .indice {
     background: #3C2745;
 }
 
 .indice li a {
-    color:white;
+    color: white;
 }
 
 .indice li a:hover {
     background: #6b5874;
 }
 
-#yesBtn {
-    transform: translate(-100%, 0);
-}
-
-#noBtn {
-    position: absolute;
+.amigos li:hover>ul {
+    display: block;
 }
